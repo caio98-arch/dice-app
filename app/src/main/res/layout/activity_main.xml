@@ -9,6 +9,26 @@
     android:background="@drawable/adrien_olichon_unsplash">
 
     <LinearLayout
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/string_login"
+                android:textColor="@color/txtLoginColor"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
@@ -21,8 +41,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="@string/roll_the_dice"
+            android:fontFamily="cursive"
             android:textColor="#FFFF"
-            android:textSize="30sp" />
+            android:textSize="50sp" />
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -92,4 +113,5 @@
                 tools:ignore="ButtonStyle" />
         </LinearLayout>
     </LinearLayout>
+
 </FrameLayout>

@@ -44,5 +44,6 @@ class MainActivity : AppCompatActivity() {
         rollButtonD20.setOnClickListener {
             showDiceResult(textView, getDiceValue(20))
         }
+
     }
 }

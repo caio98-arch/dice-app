@@ -7,5 +7,5 @@
     <string name="roll_D12">Roll D12</string>
     <string name="roll_D20">Roll D20</string>
     <string name="roll_the_dice">Roll The Dice!</string>
-    <string name="my_msg">my msg</string>
+    <string name="string_login">Login</string>
 </resources>
