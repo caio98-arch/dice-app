@@ -1,5 +1,6 @@
 package caio.playing.diceapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -11,6 +12,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val loginButton: Button = findViewById<Button>(R.id.btnLogin)
 
         val rollButtonD4: Button = findViewById<Button>(R.id.roll_d4)
         val rollButtonD6: Button = findViewById<Button>(R.id.roll_d6)
@@ -45,5 +48,28 @@ class MainActivity : AppCompatActivity() {
             showDiceResult(textView, getDiceValue(20))
         }
 
+        loginButton.setOnClickListener{
+            startActivity(Intent(this, LoginActivity::class.java))
+        }
+    }
+
+    fun showDiceResult(textView: TextView?, diceValue: Int) : TextView? {
+        cleanView(textView)
+        appendIntView(textView, diceValue)
+        return textView
+    }
+
+    fun cleanView(textView: TextView?) : TextView? {
+        textView?.text = ""
+        return textView
+    }
+
+    fun appendIntView (textView: TextView?, value: Int) : TextView? {
+        textView?.append(value.toString())
+        return textView
+    }
+
+    fun getDiceValue(diceSize: Int): Int {
+        return (1..diceSize).random()
     }
 }

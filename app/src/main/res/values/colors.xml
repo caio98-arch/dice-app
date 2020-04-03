@@ -3,6 +3,17 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
-    <color name="btnLogin">#DC143C</color>
-    <color name="txtLoginColor">#FFF</color>
+    <color name="black">#000</color>
+    <color name="blue">#0000FF</color>
+    <color name="grey">#808080</color>
+    <color name="crimson">#DC143C</color>
+    <color name="white">#FFF</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="royalBlue">#4169E1</color>
+    <color name="seaGreen">#2E8B57</color>
+    <color name="lightRed">#FF4242</color>
+    <color name="dimGrey">#696969</color>
+    <color name="fireBrick">#B22222</color>
+    <color name="steelBlue">#4682B4</color>
+    <color name="midnightBlue">#191970</color>
 </resources>

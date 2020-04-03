@@ -20,8 +20,8 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/rounded_button"
-                android:text="@string/string_login"
-                android:textColor="@color/txtLoginColor"
+                android:text="@string/btnLogin"
+                android:textColor="@color/white"
                 android:textAllCaps="false"
                 android:textSize="20sp"
                 android:textStyle="normal" />

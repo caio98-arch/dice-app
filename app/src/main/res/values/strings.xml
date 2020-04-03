@@ -2,10 +2,16 @@
     <string name="app_name">Dice Roll</string>
     <string name="roll_D4">Roll D4</string>
     <string name="roll_D6">Roll D6</string>
-    <string name="roll_D8">Roll D8</string>
+    <string name="roll_D8" >Roll D8</string>
     <string name="roll_D10">Roll D10</string>
     <string name="roll_D12">Roll D12</string>
     <string name="roll_D20">Roll D20</string>
     <string name="roll_the_dice">Roll The Dice!</string>
-    <string name="string_login">Login</string>
+    <string name="btnLogin">Login</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="create_account">Create Account!</string>
+    <string name="welcome">Welcome</string>
 </resources>
